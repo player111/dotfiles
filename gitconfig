@@ -1,7 +1,5 @@
 [user]
 	email = cperkins141@gmail.com
-	name = player111
+	name = Connor Perkins
 [credential]
 	helper = cache --timeout=3600
-[remote "origin"]
-	url = https://player111@github.com
