@@ -1,13 +1,2 @@
-# Created by newuser for 5.2
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
- recovery-pacman() {
-    sudo pacman "$@"  \
-    --log /dev/null   \
-    --noscriptlet     \
-    --dbonly          \
-    --force           \
-    --nodeps          \
-    --needed
-}
+# Only load Liquid Prompt in interactive shells, not from a script or from scp
+[[ $- = *i* ]] && source /usr/bin/liquidprompt 
