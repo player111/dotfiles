@@ -1,2 +1,2 @@
 # Only load Liquid Prompt in interactive shells, not from a script or from scp
-[[ $- = *i* ]] && source /usr/bin/liquidprompt 
+[[ $- = *i* ]] && source /usr/bin/liquidprompt
